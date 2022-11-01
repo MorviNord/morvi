@@ -1,0 +1,30 @@
+.button_theme {
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.lang-form {
+    display: inline-flex;
+    align-items: center;
+        
+        svg {
+            margin-left: 11px;
+        }
+
+}
+
+.button_lead {
+    font-size: 14px;
+    padding: 14px 32px;
+
+    background: $primary-color;
+    color: $main-tc;
+
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: $hover-color;
+}

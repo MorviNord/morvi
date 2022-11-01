@@ -1,0 +1,14 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 39px 0px 33px;
+
+        p {
+            color: $main-tc;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+}

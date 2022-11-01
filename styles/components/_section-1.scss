@@ -1,0 +1,49 @@
+.container-inner {
+    margin-top: 80px;
+
+    ul {
+        display: inline-flex;
+        border: 1px solid #495159;
+        border-radius: 4px;
+        gap: 24px;
+        padding: 8px 12px;
+
+        li:first-child {
+            list-style-type: none;
+        }
+
+        li {
+            list-style-type: circle;
+            color: $primary-color;
+            
+            span {
+                color: $main-tc;
+            }
+        }
+
+    }
+}
+
+.container__item {
+    color: $main-tc;
+}
+
+.welcome-col {
+    color: $main-tc;
+
+    .title__welcome {
+        font-size: 43px;
+    }
+}
+
+.button-ld {
+    margin-top: 20px;
+}
+
+.img-bg {
+    max-width: 1328px;
+    position: absolute;
+    top: 20px;
+    left: 635px;
+    z-index: -1;
+}

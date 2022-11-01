@@ -1,0 +1,27 @@
+@import "var.scss";
+@import "header.scss";
+@import "button.scss";
+@import "section-1.scss";
+@import "section-2.scss";
+@import "footer.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $secondary-color;
+    max-width: 1328px;
+    margin: 0 auto;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: $main-tc;
+}
+
+

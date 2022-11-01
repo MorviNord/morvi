@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #484848;
+
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+        ul {
+            align-items: center;
+        }
+        li {
+            list-style-type: none;
+        }
+}
+
+.top__col {
+    display: flex;
+    gap: 60px;
+}
+
+.tel-link {
+    display: flex;
+    font-size: 20px;
+}
+
+.email-link:link {
+    text-decoration: underline;
+}
+
+.link_pozition {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.lang-form {
+    color: $main-tc;
+    border: 2px solid #495159;
+}
